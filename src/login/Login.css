@@ -1,0 +1,173 @@
+html
+{
+  -webkit-tap-highlight-color: transparent;
+}
+html,head
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  html,.logo h1 a
+  {
+    display: block;
+  }
+  body
+  {
+    margin: 0;
+    padding: 0;
+    font-family: "arial, sans-serif",宋体;
+  }
+  .wlf-page
+  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .wlf-header
+  {
+    height: 90px;
+  }
+  .logo,.login-layout
+  {
+    width: 1284px;
+    margin: 0 auto;
+  }
+  .logo
+  {
+    height: 90px;
+    clear: none;
+  }
+  .logo h1
+  {
+    float: left;
+    margin-top: 24px;
+  }
+  .logo h1,.logo h1 a
+  {
+    width: 141px;
+    height: 42px;
+  }
+  .logo h1 a
+  {
+    background-image: url(http://cdn.dodojia.cn/website/image/wlf/resource/logo.png);
+  }
+  .content,.login-bg,.login-layout
+  {
+    height:735px;
+  }
+  .content
+  {
+    position: relative;
+    width: 100%;
+  }
+  .login-bg
+  {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-image: url(http://cdn.dodojia.cn/website/image/wlf/resource/login/lbg.png);
+    background-size: cover;
+  }
+  .login-layout
+  {
+    position: relative;
+    z-index: 2;
+  }
+  .login-box
+  {
+    float: right;
+    width: 375px;
+    height: 325px;
+    background: #fff;
+    margin-top:120px;
+  }
+  .login-title,.login-in,.submit
+  {
+    margin:25px 30px;
+  }
+  .login-title
+  {
+    font-weight: bold;
+    color: #CBB993;
+    font-size: 20px;
+  }
+  .login-in,.login-in-box,.submit,.submit button,.login-in-row
+  {
+    width: 305px;
+  }
+  .login-in-box
+  {
+    margin-bottom:15px;
+    position: relative;
+  }
+  .login-icon,.login-in-box input,.submit,.submit button,.login-in-row
+  {
+    height: 40px;
+  }
+  .login-icon,.login-in-box input
+  {
+    float: left;
+  }
+  .login-icon
+  {
+    width: 38px;
+    position: relative;
+    top: 1px;
+    left: 1px;
+    z-index: 3;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 40px;
+  }
+  .login-in-box input
+  {
+    border: 1px solid #e4e4e4;
+    width: 265px;
+    margin: 0;
+    padding: 0 0 0 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    font-size: 14px;
+  }
+  .submit button
+  {
+    background: #CBB993;
+    color: #FFFFFF;
+    font-size:16px ;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .submit button:hover
+  {
+    background: #CBB966;
+  }
+  .footer
+  {
+    height: 150px;
+    text-align: center;
+    line-height: 120px;
+    color: #666666;
+  }
+  .login-error
+  {
+    color: red;
+    padding: 5px 0;
+    text-indent: 10mm;
+  }
+  .login-icon-user:before
+  {
+    content:"\eb33";
+  }
+  .login-icon-password:before
+  {
+    content:"\eb66";
+  }
+  [class^="login-icon-"], [class*=" login-icon-"] {
+    font-family: 'icomoon';
+}
